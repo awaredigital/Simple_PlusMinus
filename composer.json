@@ -1,0 +1,22 @@
+{
+    "name": "simple/module-plusminus",
+    "description": "Count down timer allowing specific dates to be set for client.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "",
+            "name": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Simple\\PlusMinus\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
